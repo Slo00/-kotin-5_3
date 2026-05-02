@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Моя галерея</string>
+    <string name="empty_gallery">У вас пока нет фото</string>
+    <string name="take_first_photo">Сделать первое фото</string>
+    <string name="take_photo">Сделать фото</string>
+    <string name="export_to_gallery">Экспорт в галерею</string>
+    <string name="more_actions">Действия</string>
+    <string name="back">Назад</string>
+    <string name="export_success">Фото добавлено в галерею</string>
+    <string name="export_failed">Не удалось экспортировать фото</string>
+    <string name="camera_permission_denied">Нет разрешения на использование камеры</string>
+</resources>
