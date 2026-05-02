@@ -123,7 +123,6 @@ class GalleryViewModel(app: Application) : AndroidViewModel(app) {
     }
 }
 
-// ---------- Activity и навигация ----------
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -144,7 +143,6 @@ class MainActivity : ComponentActivity() {
     }
 }
 
-// ---------- Главный экран: сетка фото ----------
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -252,7 +250,6 @@ private fun PhotoCell(photo: Photo, onClick: () -> Unit, onExport: () -> Unit) {
     }
 }
 
-// ---------- Экран просмотра фото ----------
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
